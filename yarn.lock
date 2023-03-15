@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@acocci/component-library@github:acocci/component-library":
+  "resolved" "git+ssh://git@github.com/acocci/component-library.git#e850bc89c809756d66c2ab5d9b0d69496c613f0e"
+  "version" "1.0.0"
+
 "@babel/code-frame@^7.18.6":
   "integrity" "sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q=="
   "resolved" "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.18.6.tgz"
