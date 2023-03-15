@@ -1,0 +1,37 @@
+{
+	"author": "Angelo Cocci",
+	"bugs": {
+		"url": "https://github.com/acocci/component-library/issues"
+	},
+	"description": "Dynamic Library Test",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^24.0.1",
+		"@rollup/plugin-node-resolve": "^15.0.1",
+		"@rollup/plugin-typescript": "^11.0.0",
+		"@types/react": "^18.0.28",
+		"react": "^18.2.0",
+		"rollup": "^3.19.1",
+		"rollup-plugin-dts": "^5.2.0",
+		"typescript": "^4.9.5"
+	},
+	"files": [
+		"dist"
+	],
+	"homepage": "https://github.com/acocci/component-library#readme",
+	"license": "ISC",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"name": "@acocci/component-library",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/acocci"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acocci/component-library.git"
+	},
+	"scripts": {
+		"rollup": "rollup -c",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"version": "1.0.0"
+}
