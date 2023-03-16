@@ -43,6 +43,6 @@
 		"rollup": "rollup -c",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"type": "module",
-	"version": "1.5.0"
+	"types": "dist/index.d.ts",
+	"version": "1.6.0"
 }
