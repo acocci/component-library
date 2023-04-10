@@ -1,5 +1,7 @@
 {
-	"author": "Angelo Cocci",
+	"name": "@acocci/component-library",
+  "version": "1.6.0",
+  "author": "Angelo Cocci",
 	"bugs": {
 		"url": "https://github.com/acocci/component-library/issues"
 	},
@@ -9,8 +11,8 @@
 		"@rollup/plugin-node-resolve": "^15.0.1",
 		"@rollup/plugin-typescript": "^11.0.0",
 		"@types/react": "^18.0.28",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
+		 "react": "^18.2.0",
+    "react-dom": "^18.2.0",
 		"rollup": "^3.19.1",
 		"rollup-plugin-dts": "^5.2.0",
 		"tslib": "^2.5.0",
@@ -23,14 +25,14 @@
 	"license": "ISC",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
-	"name": "@acocci/component-library",
+	
 	"peerDependencies": {
 		"@emotion/react": "^11.10.6",
 		"@emotion/styled": "^11.10.6",
 		"@mui/material": "^5.11.12",
 		"@types/react": "^18.0.28",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
+		 "react": "^18.2.0",
+    "react-dom": "^18.2.0"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/acocci"
@@ -43,6 +45,6 @@
 		"rollup": "rollup -c",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"types": "dist/index.d.ts",
-	"version": "1.6.0"
+	"types": "dist/index.d.ts"
+	
 }
