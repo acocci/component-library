@@ -1,2 +1,1 @@
-export { default as Button } from "./Button";
-
+export { default as AlertDisplay } from './ui/AlertDisplay/AlertDisplay';
