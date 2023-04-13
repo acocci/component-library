@@ -5,6 +5,7 @@ import { useMemo, useState } from 'react';
 import grey from '@mui/material/colors/grey';
 import { useTheme } from '@mui/material/styles';
 
+import React from 'react';
 import { DialogStyled } from './Dialog.styles';
 import { IDialogProps } from './Dialog.types';
 
