@@ -2,7 +2,7 @@ import PieChartIcon from '@mui/icons-material/PieChart';
 import type { Meta, StoryObj } from '@storybook/react';
 
 import React from 'react';
-import { AlertDisplay } from '../../components/ui';
+import { AlertDisplay } from '../../components/ui/';
 
 const meta = {
   title: 'UI/AlertDisplay',
