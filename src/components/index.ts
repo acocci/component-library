@@ -13,3 +13,5 @@ export { default as LineChart } from './ui/charts/LineChart/LineChart';
 export { default as PieChart } from './ui/charts/PieChart/PieChart';
 export { default as AnchorMenu } from './ui/menus/AnchorMenu';
 export { default as ListMenu } from './ui/menus/ListMenu';
+export { default as DisplayTable } from './ui/tables/DisplayTable/DisplayTable';
+export { default as SortTable } from './ui/tables/SortTable/SortTable';
