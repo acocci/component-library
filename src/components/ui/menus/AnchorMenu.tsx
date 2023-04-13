@@ -3,12 +3,13 @@ import { camelCase } from 'lodash';
 import { bindFocus, bindHover, bindMenu, usePopupState } from 'material-ui-popup-state/hooks';
 import HoverMenu from 'material-ui-popup-state/HoverMenu';
 
+import React from 'react';
 import ListMenuItem from './ListMenuItem';
 import { StyledList } from './menus.styles';
 import { IListItem, IMenuItem } from './menus.types';
 
 const AnchorMenu = ({ item, index }: IListItem) => {
-  const { Icon, iconOnly, name, onClick, secondary }: IMenuItem = item;
+  const { ico, iconOnly, name, onClick, secondary }: IMenuItem = item;
   const popupState = usePopupState({
     popupId: `${camelCase(name)}_${index || 0}`,
     variant: 'popover',
@@ -22,7 +23,7 @@ const AnchorMenu = ({ item, index }: IListItem) => {
           if (onClick) onClick(e, item);
         }}
       >
-        <ListMenuItem Icon={Icon} iconOnly={iconOnly} name={name} />
+        <ListMenuItem ico={<>{ico}</>} iconOnly={iconOnly} name={name} />
       </ListItemButton>
       <HoverMenu
         {...bindMenu(popupState)}
@@ -39,9 +40,9 @@ const AnchorMenu = ({ item, index }: IListItem) => {
                       if (m.onClick) m.onClick(e, m);
                     }}
                   >
-                    {m.Icon && (
+                    {m.ico && (
                       <ListItemIcon>
-                        <m.Icon />
+                        <>{m.ico}</>
                       </ListItemIcon>
                     )}
                     {!m.iconOnly && <>{m.name}</>}
