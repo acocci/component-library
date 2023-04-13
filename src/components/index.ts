@@ -1,5 +1,6 @@
 export { default as AlertDisplay } from './ui/AlertDisplay/AlertDisplay';
 export { default as AutoComplete } from './ui/AutoComplete/AutoComplete';
+export { default as AvatarDisplay } from './ui/AvatarDisplay/AvatarDisplay';
 export { default as BadgeDisplay } from './ui/BadgeDisplay/BadgeDisplay';
 export { default as CircularIndicator } from './ui/CircularIndicator/CircularIndicator';
 export { default as Dialog } from './ui/Dialog/Dialog';
