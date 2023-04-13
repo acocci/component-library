@@ -1,4 +1,4 @@
-import { GenericRecords } from 'components/generic.types';
+import { GenericRecords } from '../../generic.types';
 
 export interface ICharts {
   colors?: string[];

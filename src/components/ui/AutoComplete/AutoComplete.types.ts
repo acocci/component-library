@@ -1,4 +1,4 @@
-import { LabelValuePairs, LabelValues, ReactEvent } from 'types/generic.types';
+import { LabelValuePairs, LabelValues, ReactEvent } from '../../generic.types';
 
 export default interface IAutoComplete {
   label: string;

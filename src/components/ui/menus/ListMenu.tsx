@@ -4,7 +4,7 @@ import { Checkbox, Collapse, ListItem, ListItemButton, ListItemIcon } from '@mui
 import { SyntheticEvent, useState } from 'react';
 
 import { useTheme } from '@mui/material/styles';
-import { Sx } from 'components/generic.types';
+import { Sx } from '../../generic.types';
 
 import AnchorMenu from './AnchorMenu';
 import ListMenuItem from './ListMenuItem';

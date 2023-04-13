@@ -1,7 +1,7 @@
 import { Breakpoint } from '@mui/system';
 import React from 'react';
 
-import { ReactNode } from 'components/generic.types';
+import { ReactNode } from '../../generic.types';
 
 export interface IDialogTitleProps {
   id: string;
