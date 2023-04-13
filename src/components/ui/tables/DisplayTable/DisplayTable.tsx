@@ -9,7 +9,8 @@ import {
 } from '@mui/material';
 import { get } from 'lodash';
 
-import { ITableProps } from 'components/ui';
+import React from 'react';
+import { ITableProps } from '../tables.types';
 
 const BasicTable = ({ columns, rows, size, stickyHeader = true }: ITableProps) => (
   <TableContainer component={Paper}>

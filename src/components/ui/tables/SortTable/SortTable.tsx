@@ -14,8 +14,9 @@ import { visuallyHidden } from '@mui/utils';
 import { get } from 'lodash';
 import { SetStateAction, useState } from 'react';
 
-import { ISortTableProps, Order } from 'components/ui';
-import { ReactEvent } from 'types/generic.types';
+import React from 'react';
+import { ReactEvent } from '../../../generic.types';
+import { ISortTableProps, Order } from '../tables.types';
 
 const SortableTable = ({
   columns,
