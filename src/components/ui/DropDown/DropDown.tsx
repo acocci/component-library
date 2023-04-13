@@ -2,7 +2,6 @@ import { InputLabel, ListItemIcon, MenuItem, Select, SelectChangeEvent } from '@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import React from 'react';
 import { StyledFormControl, StyledListItemText } from './DropDown.styles';
 import { IDrop } from './DropDown.types';
 

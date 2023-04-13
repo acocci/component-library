@@ -1,4 +1,4 @@
-import { ICO, ReactEvent, Sx } from '../../generic.types';
+import { ReactEvent, ReactNode, Sx } from '../../generic.types';
 
 export enum MenuTypes {
   anchorMenu = 'Anchor Menu',
@@ -11,7 +11,7 @@ export type MenuItems = Array<IMenuItem>;
 
 export interface IMenuItem {
   disabled?: boolean;
-  Icon?: ICO;
+  ico?: ReactNode;
   iconOnly?: boolean;
   name: string;
   onClick?: (e: ReactEvent, props?: IMenuItem) => void;

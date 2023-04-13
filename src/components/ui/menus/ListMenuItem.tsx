@@ -1,13 +1,14 @@
 import { ListItemIcon, ListItemText, Tooltip } from '@mui/material';
 
+import React from 'react';
 import { IMenuItem } from './menus.types';
 
-const ListMenuItem = ({ Icon, iconOnly, name }: IMenuItem) => (
+const ListMenuItem = ({ ico, iconOnly, name }: IMenuItem) => (
   <>
-    {Icon && (
+    {ico && (
       <Tooltip title={iconOnly ? name : ''}>
         <ListItemIcon>
-          <Icon />
+          <>{ico}</>
         </ListItemIcon>
       </Tooltip>
     )}

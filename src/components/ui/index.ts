@@ -13,3 +13,7 @@ export { default as LineChart } from './charts/LineChart/LineChart';
 export { default as PieChart } from './charts/PieChart/PieChart';
 export { default as AnchorMenu } from './menus/AnchorMenu';
 export { default as ListMenu } from './menus/ListMenu';
+export * from './menus/menus.types';
+export { default as DisplayTable } from './tables/DisplayTable/DisplayTable';
+export { default as SortTable } from './tables/SortTable/SortTable';
+export * from './tables/tables.types';

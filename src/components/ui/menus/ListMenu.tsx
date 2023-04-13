@@ -6,6 +6,7 @@ import { SyntheticEvent, useState } from 'react';
 import { useTheme } from '@mui/material/styles';
 import { Sx } from '../../generic.types';
 
+import React from 'react';
 import AnchorMenu from './AnchorMenu';
 import ListMenuItem from './ListMenuItem';
 import { StyledList } from './menus.styles';
@@ -40,11 +41,13 @@ const ListMenu = ({ expandAll = true, menuItems, menuType, sx }: IMenu) => {
   // <ListItem> li child
   const Item = ({ item, index }: IListItem) => {
     const current = `${index}_${item.name}`;
-    const { disabled, iconOnly, Icon, onClick, secondary, secondaryExpand, name }: IMenuItem = item;
+    const { disabled, iconOnly, ico, onClick, secondary, secondaryExpand, name }: IMenuItem = item;
     const [open, setOpen] = useState<boolean>(
       secondaryExpand === false ? secondaryExpand : expandAll,
     );
-    const MenuItemWithIcon = () => <ListMenuItem Icon={Icon} iconOnly={iconOnly} name={name} />;
+    const MenuItemWithIcon = () => (
+      <ListMenuItem ico={<>{ico}</>} iconOnly={iconOnly} name={name} />
+    );
     const handleToggle = (e: SyntheticEvent<Element, Event>) => {
       setOpen(!open);
       if (item.onClick) item.onClick(e, item);
