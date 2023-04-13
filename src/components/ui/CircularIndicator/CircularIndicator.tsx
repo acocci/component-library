@@ -1,5 +1,6 @@
 import { Box, CircularProgress, Tooltip, Typography } from '@mui/material';
 
+import React from 'react';
 import { BoxDisplay, CircularProgressBkg } from './CircularIndicator.styles';
 import ICircularIndicator from './CircularIndicator.types';
 
