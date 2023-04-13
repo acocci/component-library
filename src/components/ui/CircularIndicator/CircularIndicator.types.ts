@@ -4,6 +4,6 @@ import { ReactNode } from '../../generic.types';
 
 export default interface ICircularIndicator extends CircularProgressProps {
   progressBkg?: boolean;
-  Icon?: ReactNode;
+  ico?: ReactNode;
   tooltip?: string;
 }

@@ -6,7 +6,7 @@ import ICircularIndicator from './CircularIndicator.types';
 
 const CircularIndicator = ({
   color,
-  Icon,
+  ico,
   progressBkg = true,
   thickness,
   tooltip,
@@ -25,8 +25,8 @@ const CircularIndicator = ({
         variant={value ? 'determinate' : 'indeterminate'}
       />
       <BoxDisplay>
-        {Icon ? (
-          <>{Icon}</>
+        {ico ? (
+          <>{ico}</>
         ) : (
           <Typography variant="caption" component="div" color="text.secondary">
             {value && <>{`${Math.round(value)}%`}</>}
