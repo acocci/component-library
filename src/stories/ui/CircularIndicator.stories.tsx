@@ -22,7 +22,15 @@ export const Percent = Template.bind({});
 Percent.args = { color: 'warning', value: 50, tooltip: 'Current %' };
 
 export const Icon = Template.bind({});
-Icon.args = { value: 50, tooltip: 'Signal Strength', Icon: BluetoothIcon };
+Icon.args = {
+  value: 50,
+  tooltip: 'Signal Strength',
+  Icon: (
+    <>
+      <BluetoothIcon />
+    </>
+  ),
+};
 
 export const Loading = Template.bind({});
 Loading.args = { progressBkg: false, thickness: 5 };

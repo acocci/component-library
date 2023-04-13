@@ -26,7 +26,7 @@ const CircularIndicator = ({
       />
       <BoxDisplay>
         {Icon ? (
-          <Icon />
+          <>{Icon}</>
         ) : (
           <Typography variant="caption" component="div" color="text.secondary">
             {value && <>{`${Math.round(value)}%`}</>}
