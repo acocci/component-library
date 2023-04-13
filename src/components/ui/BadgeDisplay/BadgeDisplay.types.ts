@@ -1,4 +1,4 @@
-import { ICO, Sx } from 'components/generic.types';
+import { ICO, Sx } from '../../generic.types';
 
 export default interface IBadge {
   color: 'default' | 'primary' | 'secondary' | 'error' | 'info' | 'success' | 'warning' | undefined;

@@ -1,6 +1,6 @@
 import { CircularProgressProps } from '@mui/material';
 
-import { ICO } from 'components/generic.types';
+import { ICO } from '../../generic.types';
 
 export default interface ICircularIndicator extends CircularProgressProps {
   progressBkg?: boolean;

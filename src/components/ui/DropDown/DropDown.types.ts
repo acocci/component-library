@@ -1,6 +1,6 @@
 import { SelectChangeEvent } from '@mui/material';
 
-import { IconNameValues, Sx } from 'components/generic.types';
+import { IconNameValues, Sx } from '../../generic.types';
 
 export interface IDrop {
   defaultValue?: string;

@@ -1,4 +1,4 @@
-import { ICO, ReactEvent, Sx } from 'components/generic.types';
+import { ICO, ReactEvent, Sx } from '../../generic.types';
 
 export enum MenuTypes {
   anchorMenu = 'Anchor Menu',

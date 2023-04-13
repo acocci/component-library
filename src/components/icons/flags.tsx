@@ -1,4 +1,4 @@
-import { GenericRecord } from 'components/generic.types';
+import { GenericRecord } from '../generic.types';
 
 const flags: GenericRecord = {
   en: <>🇺🇸</>,

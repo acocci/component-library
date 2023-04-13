@@ -1,5 +1,5 @@
 import { AlertProps } from '@mui/material';
-import { ReactNode } from 'components/generic.types';
+import { ReactNode } from '../../generic.types';
 
 export default interface IAlert extends AlertProps {
   children?: ReactNode;

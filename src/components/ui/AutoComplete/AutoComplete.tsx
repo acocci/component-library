@@ -1,6 +1,6 @@
 import { Autocomplete, TextField } from '@mui/material';
 
-import { LabelValues, ReactEvent } from 'components/generic.types';
+import { LabelValues, ReactEvent } from '../../generic.types';
 
 import IAutoComplete from './AutoComplete.types';
 
@@ -16,7 +16,9 @@ const AutoComplete = ({ label, multiple = false, onChange, options, size }: IAut
         if (onChange && value) onChange(e, value);
       }}
       options={options}
-      renderInput={params => <TextField {...params} label={label} />}
+      renderInput={(params: any) => (
+        <TextField {...params} label={label} onClick={() => console.log(params)} />
+      )}
     />
   </>
 );

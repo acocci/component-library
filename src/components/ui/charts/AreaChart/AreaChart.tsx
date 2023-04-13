@@ -11,7 +11,7 @@ import {
   YAxis,
 } from 'recharts';
 
-import { ICharts } from 'components/ui/charts/charts.types';
+import { ICharts } from '../charts.types';
 
 import { sansSerifFontFamily } from '../../../fonts';
 import { defaultChartColors } from '../charts.styles';
