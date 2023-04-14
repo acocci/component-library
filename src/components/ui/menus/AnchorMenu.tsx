@@ -2,8 +2,8 @@ import { Box, ListItemButton, ListItemIcon, MenuItem } from '@mui/material';
 import { camelCase } from 'lodash';
 import { bindFocus, bindHover, bindMenu, usePopupState } from 'material-ui-popup-state/hooks';
 import HoverMenu from 'material-ui-popup-state/HoverMenu';
-
 import React from 'react';
+
 import ListMenuItem from './ListMenuItem';
 import { StyledList } from './menus.styles';
 import { IListItem, IMenuItem } from './menus.types';

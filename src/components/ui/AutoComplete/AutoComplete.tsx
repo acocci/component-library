@@ -16,9 +16,8 @@ const AutoComplete = ({ label, multiple = false, onChange, options, size }: IAut
         if (onChange && value) onChange(e, value);
       }}
       options={options}
-      renderInput={(params: any) => (
-        <TextField {...params} label={label} onClick={() => console.log(params)} />
-      )}
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      renderInput={(params: any) => <TextField {...params} label={label} />}
     />
   </>
 );

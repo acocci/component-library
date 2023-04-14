@@ -8,8 +8,8 @@ import {
   TableRow,
 } from '@mui/material';
 import { get } from 'lodash';
-
 import React from 'react';
+
 import { ITableProps } from '../tables.types';
 
 const BasicTable = ({ columns, rows, size, stickyHeader = true }: ITableProps) => (

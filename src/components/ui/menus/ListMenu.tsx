@@ -1,12 +1,12 @@
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import { Checkbox, Collapse, ListItem, ListItemButton, ListItemIcon } from '@mui/material';
-import { SyntheticEvent, useState } from 'react';
-
 import { useTheme } from '@mui/material/styles';
+import React, { SyntheticEvent, useState } from 'react';
+
 import { Sx } from '../../generic.types';
 
-import React from 'react';
+
 import AnchorMenu from './AnchorMenu';
 import ListMenuItem from './ListMenuItem';
 import { StyledList } from './menus.styles';

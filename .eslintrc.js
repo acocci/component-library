@@ -3,7 +3,6 @@ module.exports = {
   "plugins": ["@typescript-eslint", "prettier", "react", "import"],
   env: {
     browser: true,
-    jest: true,
     es2021: true,
     node: true,
   },
@@ -15,7 +14,6 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
-    'plugin:jest/recommended',
     "plugin:storybook/recommended"
   ],
   settings: {
@@ -35,12 +33,6 @@ module.exports = {
     },
   },
   rules: {
-    'jest/expect-expect': [
-      'error',
-      {
-        assertFunctionNames: ['expect', 'testSaga', 'expectSaga'],
-      },
-    ],
     'import/order': [
       'error',
       {
@@ -76,7 +68,7 @@ module.exports = {
     "no-param-reassign": 0,
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/no-unused-vars": "warn",
-    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-explicit-any": "warn",
   },
   parserOptions: {
     sourceType: 'module',

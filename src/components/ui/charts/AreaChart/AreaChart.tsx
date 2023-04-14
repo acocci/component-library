@@ -11,10 +11,10 @@ import {
   YAxis,
 } from 'recharts';
 
-import { ICharts } from '../charts.types';
 
 import { sansSerifFontFamily } from '../../../fonts';
 import { defaultChartColors } from '../charts.styles';
+import { ICharts } from '../charts.types';
 
 const AreaChart = ({ colors = defaultChartColors, data, showLegend = true }: ICharts) => {
   const keys = useMemo(

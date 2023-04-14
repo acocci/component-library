@@ -17,5 +17,5 @@
     "strict": true
   },
   "include": ["src", "**/*.ts", "**/*.tsx", "**/**/*.ts", "**/**/*.tsx"],
-  "exclude": ["dist", "node_modules", "src/**/*.test.tsx", "src/**/*.stories.tsx"]
+  "exclude": ["dist", "node_modules", "src/**/*.test.tsx", "**/*.stories.tsx"]
 }
