@@ -1,9 +1,9 @@
 import { Cell, PieChart as ChartType, Pie, ResponsiveContainer, Tooltip } from 'recharts';
 
-import { ICharts } from '../charts.types';
 
 import { sansSerifFontFamily } from '../../../fonts';
 import { defaultChartColors } from '../charts.styles';
+import { ICharts } from '../charts.types';
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({

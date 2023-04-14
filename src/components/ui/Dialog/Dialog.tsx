@@ -1,11 +1,10 @@
 import CloseIcon from '@mui/icons-material/Close';
 import { Box, DialogActions, DialogContent, DialogTitle, IconButton } from '@mui/material';
-import { useMemo, useState } from 'react';
-
 import grey from '@mui/material/colors/grey';
 import { useTheme } from '@mui/material/styles';
+import React, { useMemo, useState } from 'react';
 
-import React from 'react';
+
 import { DialogStyled } from './Dialog.styles';
 import { IDialogProps } from './Dialog.types';
 
